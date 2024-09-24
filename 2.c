@@ -1,4 +1,4 @@
-/*Using Midpoint circle generation algorithm which is a variant of Bresenham's line algorithm, write a CProgram to generate pixel activation list for drawing a circle with a given centre of circle P(x, y) and a
+/*==Using Midpoint circle generation algorithm which is a variant of Bresenham's line algorithm, write a CProgram to generate pixel activation list for drawing a circle with a given centre of circle P(x, y) and a
 radius r? */
 #include<stdio.h>
 #include<conio.h>
@@ -26,11 +26,11 @@ while(x<=x2)
 {
 if(p<0)
 {
+    x=x+1
+    p=p+2*dy
 }
 else
 {
-x=x+1;
-p=p+2*dy;
 x=x+1;
 y=y+1;
 p=p+(2*dy)-(2*dx);
