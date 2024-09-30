@@ -7,7 +7,7 @@ void main()
 {
 
 int gd=DETECT,gm;
-floatshx,shy;
+float shx,shy;
 initgraph(&gd,&gm,"C:\\TurboC3\\BGI");
 printf("Enter shear factor shy along y-axis :");
 scanf("%f",&shy);
