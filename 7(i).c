@@ -9,7 +9,7 @@ void main()
 {
 int gd=DETECT,gm;
 int x1,y1,x2,y2,tx,ty,x3,y3,x4,y4;
-initgraph(&gd,&gm,"C:\\TurboC3\\BGI");
+initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 printf("Enter the starting point of line segment:");
 scanf("%d %d",&x1,&y1);
 printf("Enter the ending point of line segment:");

@@ -7,7 +7,7 @@ void main()
 {
 int gd=DETECT,gm;
 float x1,y1,x2,y2,sx,sy,x3,y3,x4,y4;
-initgraph(&gd,&gm,"C:\\TurboC3\\BGI");
+initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 printf("Enter the starting point coordinates:");
 scanf("%f %f",&x1,&y1);
 printf("Enter the ending point coordinates:");
