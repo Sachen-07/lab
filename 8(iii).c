@@ -19,7 +19,7 @@ void main()
 {
     int x, y, fcolor, bcolor;
     int gd = DETECT, gm;
-    initgraph(&gd, &gm, "C:\\TurboC3\\BGI");
+    initgraph(&gd, &gm, "C:\\TurboC3\\Projects\\LAB");
     printf("Enter the seed point (x,y) : ");
     scanf("%d%d", &x, &y);
     printf("Enter boundary color : ");

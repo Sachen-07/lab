@@ -1,5 +1,8 @@
-/*==Using Midpoint circle generation algorithm which is a variant of Bresenham's line algorithm, write a CProgram to generate pixel activation list for drawing a circle with a given centre of circle P(x, y) and a
-radius r? */
+ /*Write a C program for determining pixel
+activation list between two given points in 
+order to draw line segment using bresenham’s Line
+drawing algorithm?*/
+
 #include <stdio.h>
 #include <conio.h>
 #include <graphics.h>
